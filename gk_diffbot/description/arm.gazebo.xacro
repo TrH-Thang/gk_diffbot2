@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<robot>
+
+  <!-- ros_control plugin -->
+  <gazebo>
+    <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+      <parameters>$(find gk_diffbot)/config/arm_controllers.yaml</parameters>
+    </plugin>
+  </gazebo>
+
+  <!-- Base Link -->
+  <gazebo reference="base_arm_link">
+    <material>Gazebo/Red</material>
+  </gazebo>
+
+  <!-- Middle Link -->
+  <gazebo reference="mid_link">
+    <mu1>0.2</mu1>
+    <mu2>0.2</mu2>
+    <material>Gazebo/Green</material>
+  </gazebo>
+
+  <!-- Top Link -->
+  <gazebo reference="top_link">
+    <mu1>0.2</mu1>
+    <mu2>0.2</mu2>
+    <material>Gazebo/Blue</material>
+  </gazebo>
+
+</robot>
