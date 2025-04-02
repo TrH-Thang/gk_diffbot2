@@ -32,3 +32,10 @@ cd ~/catkin_ws
 source install/setup.bash
 ros2 run teleop_control arm_keyboard    # This node for arm control
 ```
+
+### 3. Rviz
+
+in a new terminal, enter the command:
+```bash
+rviz2
+```
