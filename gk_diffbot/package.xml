@@ -4,7 +4,7 @@
   <name>gk_diffbot</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="thangtranhoang2003@gmail.com">Hoang Thang</maintainer>
+  <maintainer email="thangtranhoang2003@gmail.com">tht</maintainer>
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
